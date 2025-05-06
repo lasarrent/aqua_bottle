@@ -22,7 +22,7 @@
   /* Браузер сначала попробует найти шрифт локально */
   src: local("Bounded-Light"),
        /* Если не получилось, загрузит woff2 */
-       url("/fonts/Bounded-Variable.ttf") format("truetype");
+       url("fonts/Bounded-Variable.ttf") format("truetype"),
        /* Если браузер не поддерживает woff2, загрузит woff */
 
 }
@@ -34,7 +34,7 @@
   /* Браузер сначала попробует найти шрифт локально */
   src: local("Bounded-SemiBold"),
        /* Если не получилось, загрузит woff2 */
-       url("/fonts/Bounded-Variable.ttf") format("truetype");
+       url("fonts/Bounded-Variable.ttf") format("truetype"),
        /* Если браузер не поддерживает woff2, загрузит woff */
 
 }
